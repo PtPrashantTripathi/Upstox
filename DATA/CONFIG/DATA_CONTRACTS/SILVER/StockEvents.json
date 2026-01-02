@@ -1,0 +1,21 @@
+{
+    "data_schema": [
+        {
+            "col_name": "date",
+            "data_type": "string"
+        },
+        {
+            "col_name": "symbol",
+            "data_type": "string"
+        },
+        {
+            "col_name": "event",
+            "data_type": "string"
+        },
+        {
+            "col_name": "value",
+            "data_type": "float64"
+        }
+    ],
+    "order_by": ["symbol", "date", "event"]
+}

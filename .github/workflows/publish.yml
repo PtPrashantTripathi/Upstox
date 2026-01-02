@@ -9,41 +9,41 @@
 name: Upload Python Package
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'StockETL/**'
-  # Allow manual trigger from the Actions tab
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+        paths:
+            - "StockETL/**"
+    # Allow manual trigger from the Actions tab
+    workflow_dispatch:
 
 permissions:
-  contents: read
+    contents: read
 
 jobs:
-  deploy:
-    # Environment configuration for GitHub Pages deployment
-    environment:
-      name: python
-      url: https://pypi.org/project/StockETL/
+    deploy:
+        # Environment configuration for GitHub Pages deployment
+        environment:
+            name: python
+            url: https://pypi.org/project/StockETL/
 
-    # Use the latest stable Ubuntu runner
-    runs-on: ubuntu-latest
+        # Use the latest stable Ubuntu runner
+        runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install build
-    - name: Build package
-      run: python -m build
-    - name: Publish package distributions to PyPI
-      uses: pypa/gh-action-pypi-publish@release/v1
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN}}
+        steps:
+            - uses: actions/checkout@v4
+            - name: Set up Python
+              uses: actions/setup-python@v3
+              with:
+                  python-version: "3.x"
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install build
+            - name: Build package
+              run: python -m build
+            - name: Publish package distributions to PyPI
+              uses: pypa/gh-action-pypi-publish@release/v1
+              with:
+                  user: __token__
+                  password: ${{ secrets.PYPI_API_TOKEN}}

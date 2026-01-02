@@ -1,0 +1,26 @@
+{
+    "data_schema": [
+        {
+            "col_name": "instrument_type",
+            "data_type": "string"
+        },
+        {
+            "col_name": "symbol",
+            "data_type": "string"
+        },
+        {
+            "col_name": "scrip_name",
+            "data_type": "string"
+        },
+        {
+            "col_name": "scrip_code",
+            "data_type": "string"
+        },
+        {
+            "col_name": "isin",
+            "data_type": "string",
+            "nullable": false
+        }
+    ],
+    "order_by": ["instrument_type", "scrip_name"]
+}

@@ -1,0 +1,23 @@
+username,date,company,amount,exchange,segment,scrip_code,instrument_type,strike_price,expiry,trade_num,trade_time,side,quantity,price
+deepshikhapatel,2022-02-08 00:00:00,TATA POWER,4506.8,NSE,EQ,500400,Equity,0,,81114605,15:02:42,Buy,19,237.2
+deepshikhapatel,2022-02-08 00:00:00,Tata Motors Passenger Vehicles Ltd,493.2,NSE,EQ,500570,Equity,0,,81173961,15:05:08,Buy,1,493.2
+deepshikhapatel,2022-02-03 00:00:00,TATA POWER,250.8,BSE,EQ,500400,Equity,0,,2146200,10:31:23,Buy,1,250.8
+deepshikhapatel,2022-02-03 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,4999.8,BMF,MF,F179K01WM1,MF,0,,,,Buy,30.4,164.46
+deepshikhapatel,2022-01-12 00:00:00,TATA POWER,475.6,NSE,EQ,500400,Equity,0,,76728703,10:16:38,Buy,2,237.8
+deepshikhapatel,2022-01-12 00:00:00,TATA POWER,4281.3,NSE,EQ,500400,Equity,0,,76728704,10:16:38,Buy,18,237.85
+deepshikhapatel,2022-01-07 00:00:00,Tata Motors Passenger Vehicles Ltd,486,NSE,EQ,500570,Equity,0,,77572547,11:21:15,Buy,1,486
+deepshikhapatel,2022-01-07 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,4999.68,BMF,MF,F179K01WM1,MF,0,,,,Buy,29.98,166.77
+deepshikhapatel,2021-11-11 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,2999.79,BMF,MF,F179K01WM1,MF,0,,,,Buy,17.93,167.3
+deepshikhapatel,2021-10-04 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,2999.85,BMF,MF,F179K01WM1,MF,0,,,,Buy,18.14,165.4
+deepshikhapatel,2021-09-21 00:00:00,Tata Motors Passenger Vehicles Ltd,1470.75,NSE,EQ,500570,Equity,0,,77654310,11:25:53,Buy,5,294.15
+deepshikhapatel,2021-09-21 00:00:00,Tata Motors Passenger Vehicles Ltd,294.15,NSE,EQ,500570,Equity,0,,77654311,11:25:53,Buy,1,294.15
+deepshikhapatel,2021-09-08 00:00:00,CarTrade Tech Limited,1485.5,NSE,EQ,543333,Equity,0,,1177556,10:38:12,Sell,1,1485.5
+deepshikhapatel,2021-09-08 00:00:00,CarTrade Tech Limited,8910.6,NSE,EQ,543333,Equity,0,,1177558,10:38:12,Sell,6,1485.1
+deepshikhapatel,2021-09-08 00:00:00,CarTrade Tech Limited,2971,NSE,EQ,543333,Equity,0,,1177557,10:38:12,Sell,2,1485.5
+deepshikhapatel,2021-09-07 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,1999.84,BMF,MF,F179K01WM1,MF,0,,,,Buy,12.32,162.31
+deepshikhapatel,2021-08-17 00:00:00,CarTrade Tech Limited,14562,NSE,EQ,543333,Equity,0,,,,Buy,9,1618
+deepshikhapatel,2021-08-06 00:00:00,ICICIPRAMC - BHARATIWIN,82.12,NSE,EQ,540787,Equity,0,,25171030,09:17:51,Buy,2,41.06
+deepshikhapatel,2021-08-05 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,999.9,BMF,MF,F179K01WM1,MF,0,,,,Buy,6.57,152.31
+deepshikhapatel,2021-07-22 00:00:00,Tata Motors Passenger Vehicles Ltd,304.1,NSE,EQ,500570,Equity,0,,77192272,11:08:48,Buy,1,304.1
+deepshikhapatel,2021-07-22 00:00:00,ICICIPRAMC - BHARATIWIN,40.39,NSE,EQ,540787,Equity,0,,27164704,10:26:23,Buy,1,40.39
+deepshikhapatel,2021-07-13 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,999.96,BMF,MF,F179K01WM1,MF,0,,,,Buy,6.77,147.62

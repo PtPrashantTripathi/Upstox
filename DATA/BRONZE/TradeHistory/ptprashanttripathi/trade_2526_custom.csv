@@ -1,0 +1,4 @@
+username,date,company,amount,exchange,segment,scrip_code,instrument_type,strike_price,expiry,trade_num,trade_time,side,quantity,price
+ptprashanttripathi,2025-10-14 00:00:00,Tata Motors Ltd,26100.4,NSE,EQ,544569,Equity,0,,1,15:30:00,Sell,100,26.1004
+ptprashanttripathi,2025-11-12 00:00:00,Tata Motors Commercial Vehicles Ltd,8130,NSE,EQ,544569,Equity,0,,1,09:15:00,Buy,100,81.3
+ptprashanttripathi,2025-10-15 00:00:00,Tata Motors Passenger Vehicles Ltd,17970,NSE,EQ,500570,Equity,0,,1,09:15:00,Buy,100,179.7

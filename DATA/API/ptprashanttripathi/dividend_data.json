@@ -1,189 +1,187 @@
 {
     "data": [
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-06-03",
+            "dividend_amount": 56.0,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "SBIN",
-            "dividend_amount": 56.0
+            "symbol": "SBIN"
         },
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-06-15",
+            "dividend_amount": 200.0,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "TATACHEM",
-            "dividend_amount": 200.0
+            "symbol": "TATACHEM"
         },
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-06-17",
+            "dividend_amount": 162.75,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "TATAPOWER",
-            "dividend_amount": 162.75
+            "symbol": "TATAPOWER"
         },
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-08-11",
+            "dividend_amount": 20.0,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "VOLTAS",
-            "dividend_amount": 20.0
+            "symbol": "VOLTAS"
         },
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-09-16",
+            "dividend_amount": 494.5,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "BPCL",
-            "dividend_amount": 494.5
+            "symbol": "BPCL"
         },
         {
-            "username": "",
-            "financial_year": "FY2021-22",
             "date": "2021-11-11",
-            "segment": "EQ",
-            "symbol": "BPCL",
-            "dividend_amount": 107.5
-        },
-        {
-            "username": "",
+            "dividend_amount": 107.5,
             "financial_year": "FY2021-22",
+            "segment": "EQ",
+            "symbol": "BPCL"
+        },
+        {
             "date": "2022-02-10",
+            "dividend_amount": 107.5,
+            "financial_year": "FY2021-22",
             "segment": "EQ",
-            "symbol": "BPCL",
-            "dividend_amount": 107.5
+            "symbol": "BPCL"
         },
         {
-            "username": "",
-            "financial_year": "FY2022-23",
             "date": "2022-06-09",
-            "segment": "EQ",
-            "symbol": "VOLTAS",
-            "dividend_amount": 22.0
-        },
-        {
-            "username": "",
+            "dividend_amount": 22.0,
             "financial_year": "FY2022-23",
-            "date": "2022-06-15",
             "segment": "EQ",
-            "symbol": "TATACHEM",
-            "dividend_amount": 250.0
+            "symbol": "VOLTAS"
         },
         {
-            "username": "",
+            "date": "2022-06-15",
+            "dividend_amount": 250.0,
             "financial_year": "FY2022-23",
-            "date": "2022-06-15",
             "segment": "EQ",
-            "symbol": "TATAPOWER",
-            "dividend_amount": 295.75
+            "symbol": "TATACHEM"
         },
         {
-            "username": "",
-            "financial_year": "FY2023-24",
+            "date": "2022-06-15",
+            "dividend_amount": 295.75,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
             "date": "2023-06-07",
-            "segment": "EQ",
-            "symbol": "TATAPOWER",
-            "dividend_amount": 300.0
-        },
-        {
-            "username": "",
+            "dividend_amount": 300.0,
             "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
             "date": "2023-07-28",
+            "dividend_amount": 200.0,
+            "financial_year": "FY2023-24",
             "segment": "EQ",
-            "symbol": "TATAMOTORS",
-            "dividend_amount": 200.0
+            "symbol": "TMPV"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2024-06-11",
+            "dividend_amount": 300.0,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "TATAMOTORS",
-            "dividend_amount": 300.0
+            "symbol": "TMPV"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2024-07-04",
+            "dividend_amount": 300.0,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "TATAPOWER",
-            "dividend_amount": 300.0
+            "symbol": "TATAPOWER"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2024-08-09",
+            "dividend_amount": 9.2,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "KPITTECH",
-            "dividend_amount": 9.2
+            "symbol": "KPITTECH"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2024-08-23",
+            "dividend_amount": 12.0,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "IRCTC",
-            "dividend_amount": 12.0
+            "symbol": "IRCTC"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2024-11-14",
+            "dividend_amount": 12.0,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "IRCTC",
-            "dividend_amount": 12.0
+            "symbol": "IRCTC"
         },
         {
-            "username": "",
-            "financial_year": "FY2024-25",
             "date": "2025-02-04",
-            "segment": "EQ",
-            "symbol": "KPITTECH",
-            "dividend_amount": 5.0
-        },
-        {
-            "username": "",
+            "dividend_amount": 5.0,
             "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "KPITTECH"
+        },
+        {
             "date": "2025-02-20",
+            "dividend_amount": 9.0,
+            "financial_year": "FY2024-25",
             "segment": "EQ",
-            "symbol": "IRCTC",
-            "dividend_amount": 9.0
+            "symbol": "IRCTC"
         },
         {
-            "username": "",
-            "financial_year": "FY2025-26",
             "date": "2025-04-03",
+            "dividend_amount": 120.0,
+            "financial_year": "FY2025-26",
             "segment": "EQ",
-            "symbol": "UNITDSPR",
-            "dividend_amount": 120.0
+            "symbol": "UNITDSPR"
         },
         {
-            "username": "",
-            "financial_year": "FY2025-26",
             "date": "2025-06-04",
+            "dividend_amount": 600.0,
+            "financial_year": "FY2025-26",
             "segment": "EQ",
-            "symbol": "TATAMOTORS",
-            "dividend_amount": 600.0
+            "symbol": "TMPV"
         },
         {
-            "username": "",
-            "financial_year": "FY2025-26",
             "date": "2025-06-20",
+            "dividend_amount": 337.5,
+            "financial_year": "FY2025-26",
             "segment": "EQ",
-            "symbol": "TATAPOWER",
-            "dividend_amount": 337.5
+            "symbol": "TATAPOWER"
         },
         {
-            "username": "",
-            "financial_year": "FY2025-26",
             "date": "2025-07-28",
+            "dividend_amount": 12.0,
+            "financial_year": "FY2025-26",
             "segment": "EQ",
-            "symbol": "KPITTECH",
-            "dividend_amount": 12.0
+            "symbol": "KPITTECH"
+        },
+        {
+            "date": "2025-08-01",
+            "dividend_amount": 240.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "UNITDSPR"
+        },
+        {
+            "date": "2025-08-22",
+            "dividend_amount": 3.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "IRCTC"
+        },
+        {
+            "date": "2025-11-21",
+            "dividend_amount": 15.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "IRCTC"
         }
     ],
-    "load_timestamp": "2025-08-02 01:12:29.389350"
+    "load_timestamp": "2026-01-02 17:53:12.019848"
 }

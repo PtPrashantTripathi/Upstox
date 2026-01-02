@@ -1,0 +1,4 @@
+username,date,company,amount,exchange,segment,scrip_code,instrument_type,strike_price,expiry,trade_num,trade_time,side,quantity,price
+deepshikhapatel,2020-03-16 00:00:00,SBI Cards,14345,NSE,EQ,543066,Equity,0,,,,Buy,19,755
+deepshikhapatel,2020-01-10 00:00:00,STATE BANK OF INDIA,329.8,NSE,EQ,500112,Equity,0,,75146692,09:21:13,Buy,1,329.8
+deepshikhapatel,2019-11-27 00:00:00,ICICIPRAMC - BHARATIWIN,34.98,NSE,EQ,540787,Equity,0,,28031442,15:43:41,Buy,1,34.98

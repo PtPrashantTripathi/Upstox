@@ -1,0 +1,341 @@
+{
+    "data": [
+        {
+            "date": "2020-05-15",
+            "dividend_amount": 19.0,
+            "financial_year": "FY2020-21",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2021-07-28",
+            "dividend_amount": 84.0,
+            "financial_year": "FY2021-22",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2022-02-24",
+            "dividend_amount": 43.75,
+            "financial_year": "FY2021-22",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2022-03-30",
+            "dividend_amount": -47.5,
+            "financial_year": "FY2021-22",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2022-03-30",
+            "dividend_amount": 47.5,
+            "financial_year": "FY2021-22",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2022-06-15",
+            "dividend_amount": 87.5,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
+            "date": "2022-07-14",
+            "dividend_amount": 100.0,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "ADANIPORTS"
+        },
+        {
+            "date": "2022-09-22",
+            "dividend_amount": 43.75,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2022-10-17",
+            "dividend_amount": 8.0,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2023-01-16",
+            "dividend_amount": 16.0,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2023-02-17",
+            "dividend_amount": 43.75,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2023-03-29",
+            "dividend_amount": -47.5,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2023-03-29",
+            "dividend_amount": 47.5,
+            "financial_year": "FY2022-23",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2023-06-07",
+            "dividend_amount": 68.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
+            "date": "2023-06-15",
+            "dividend_amount": 96.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2023-07-20",
+            "dividend_amount": 36.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2023-07-28",
+            "dividend_amount": 5.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "ADANIPORTS"
+        },
+        {
+            "date": "2023-09-22",
+            "dividend_amount": 61.25,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2023-10-19",
+            "dividend_amount": 45.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2024-01-19",
+            "dividend_amount": 54.0,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2024-02-21",
+            "dividend_amount": 43.75,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2024-03-28",
+            "dividend_amount": -47.5,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2024-03-28",
+            "dividend_amount": 47.5,
+            "financial_year": "FY2023-24",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2024-05-16",
+            "dividend_amount": 280.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2024-06-04",
+            "dividend_amount": 1740.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "ITC"
+        },
+        {
+            "date": "2024-06-11",
+            "dividend_amount": 42.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TMPV"
+        },
+        {
+            "date": "2024-06-14",
+            "dividend_amount": 48.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "ADANIPORTS"
+        },
+        {
+            "date": "2024-07-04",
+            "dividend_amount": 124.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
+            "date": "2024-07-19",
+            "dividend_amount": 100.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2024-08-22",
+            "dividend_amount": 30.1,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "IRFC"
+        },
+        {
+            "date": "2024-09-20",
+            "dividend_amount": 70.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2024-10-18",
+            "dividend_amount": 100.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2024-11-12",
+            "dividend_amount": 34.4,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "IRFC"
+        },
+        {
+            "date": "2025-01-17",
+            "dividend_amount": 660.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2025-02-12",
+            "dividend_amount": 1547.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "ITC"
+        },
+        {
+            "date": "2025-02-17",
+            "dividend_amount": 105.0,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2025-02-25",
+            "dividend_amount": -47.5,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2025-02-25",
+            "dividend_amount": 47.5,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "SBICARD"
+        },
+        {
+            "date": "2025-03-21",
+            "dividend_amount": 34.4,
+            "financial_year": "FY2024-25",
+            "segment": "EQ",
+            "symbol": "IRFC"
+        },
+        {
+            "date": "2025-05-28",
+            "dividend_amount": 1868.3,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "ITC"
+        },
+        {
+            "date": "2025-06-04",
+            "dividend_amount": 300.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2025-06-04",
+            "dividend_amount": 84.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "TMPV"
+        },
+        {
+            "date": "2025-06-13",
+            "dividend_amount": 56.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "ADANIPORTS"
+        },
+        {
+            "date": "2025-06-20",
+            "dividend_amount": 139.5,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "TATAPOWER"
+        },
+        {
+            "date": "2025-07-16",
+            "dividend_amount": 110.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2025-09-12",
+            "dividend_amount": 105.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "BECTORFOOD"
+        },
+        {
+            "date": "2025-10-15",
+            "dividend_amount": 110.0,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "TCS"
+        },
+        {
+            "date": "2025-10-24",
+            "dividend_amount": 45.15,
+            "financial_year": "FY2025-26",
+            "segment": "EQ",
+            "symbol": "IRFC"
+        }
+    ],
+    "load_timestamp": "2026-01-02 17:53:12.019848"
+}

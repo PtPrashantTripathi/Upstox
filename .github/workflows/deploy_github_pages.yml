@@ -2,67 +2,98 @@
 name: Deploy GitHub Pages
 
 on:
-  # Trigger workflow on pushes to the 'main' branch for changes in 'FRONTEND' or workflow files
-  push:
-    branches:
-      - main
-    paths:
-      - 'FRONTEND/**'
+    # Trigger workflow on pushes to the 'main' branch for changes in 'src' or 'public'
+    push:
+        branches:
+            - main
+        paths:
+            - "src/**"
+            - "public/**"
 
-  # Allow manual trigger from the Actions tab
-  workflow_dispatch:
+    # Allow manual trigger via GitHub Actions UI
+    workflow_dispatch:
+        inputs:
+            build_env:
+                description: "Build environment"
+                required: false
+                default: "prod"
+            verbose:
+                description: "Enable verbose logging"
+                required: false
+                default: "true"
+            download_source_files:
+                description: "Download source files"
+                required: false
+                default: "false"
 
+# Set required permissions for GitHub Pages
 permissions:
-  contents: read     # Read access to repository content
-  pages: write       # Write access to GitHub Pages
-  id-token: write    # ID token for secure Pages deployment
+    contents: read # Read access to repository
+    pages: write # Write access to GitHub Pages
+    id-token: write # Required for OIDC authentication
 
-# Prevent overlapping deployments to GitHub Pages
+# Prevent overlapping deployments
 concurrency:
-  group: pages-deployments
-  cancel-in-progress: false
+    group: pages-deployments
+    cancel-in-progress: false
 
 jobs:
-  deploy:
-    # Define environment for GitHub Pages
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    deploy:
+        # Target deployment environment
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        env:
+            build_env: ${{ github.event.inputs.build_env || 'dev' }}
+            verbose: ${{ github.event.inputs.verbose || 'false' }}
+            download_source_files:
+                ${{ github.event.inputs.download_source_files || 'false' }}
 
-    # Use the latest Ubuntu runner
-    runs-on: ubuntu-latest
+        steps:
+            # Checkout the repository
+            - name: Checkout Repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 1 # Faster checkout with shallow clone
 
-    steps:
-      # Step 1: Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1  # Optimize fetch to speed up the job
+            # Configure GitHub Pages
+            - name: Setup GitHub Pages
+              uses: actions/configure-pages@v5
 
-      # Step 2: Setup GitHub Pages
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
+            # Set up Node.js for building the project
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "latest"
 
-      # Step 3: Update API Path in 'render.js'
-      - name: Update API Path in render.js
-        run: |
-          echo "Replacing local API path with live URL..."
-          REPO_URL="https://raw.githubusercontent.com"
-          REPO_NAME="${{ github.repository }}"
-          DEFAULT_BRANCH="${{ github.event.repository.default_branch }}"
-          REPO_OWNER_LOWER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+            # Install Node.js project dependencies
+            - name: Install Node dependencies
+              run: npm install
 
-          # Use sed to update the file
-          sed -i "s|../DATA/API/ptprashanttripathi|${REPO_URL}/${REPO_NAME}/${DEFAULT_BRANCH}/DATA/API/${REPO_OWNER_LOWER}|" ./FRONTEND/asset/js/render.js
+            # Update API Path in 'SessionContext.ts'
+            - name: Update API Path in SessionContext.ts
+              run: |
+                  echo "Replacing local API path with live URL..."
+                  REPO_URL="https://raw.githubusercontent.com"
+                  REPO_NAME="${{ github.repository }}"
+                  DEFAULT_BRANCH="${{ github.event.repository.default_branch }}"
 
-      # Step 4: Upload static site content from the 'FRONTEND' directory
-      - name: Upload Static Site Content
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './FRONTEND/'  # Path to the static files
-          retention-days: 5   # Retain artifacts for 5 days
+                  # Use sed to update the file
+                  sed -i "s|DATA/API|${REPO_URL}/${REPO_NAME}/${DEFAULT_BRANCH}/DATA/API|" ./src/contexts/SessionContext.ts
 
-      # Step 5: Deploy the uploaded artifact to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+            # Build the project using np
+            - name: Build Project
+              run: npm run build
+
+            # Upload the build output (dist/) as an artifact for Pages
+            - name: Upload Build Artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./dist
+                  retention-days: 5
+
+            # Deploy the uploaded artifact to GitHub Pages
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4

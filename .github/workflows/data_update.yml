@@ -2,59 +2,59 @@
 name: Data Update
 
 on:
-  # Schedule to run every Saturday at midnight UTC
-  schedule:
-    - cron: "0 0 * * 6"
+    # Schedule to run First Sunday of the each month at 00:00
+    schedule:
+        - cron: "0 0 1-7 * 0"
 
-  # Allow manual trigger from the Actions tab
-  workflow_dispatch:
+    # Allow manual trigger from the Actions tab
+    workflow_dispatch:
 
 env:
-  PROJECT_DIR: ${{ github.workspace }}  # Set project directory
-  USERNAME: ${{ github.repository_owner }}  # GitHub repository owner
+    PROJECT_DIR: ${{ github.workspace }} # Set project directory
 
 jobs:
-  update:
-    name: Update Data
-    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+    update:
+        name: Update Data
+        runs-on: ubuntu-latest # Use the latest Ubuntu runner
 
-    steps:
-      # Step 1: Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1  # Fetch only the latest commit for efficiency
+        steps:
+            # Step 1: Checkout the repository
+            - name: Checkout Repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 1 # Fetch only the latest commit for efficiency
 
-      # Step 2: Set up Python environment
-      - name: Set Up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"  # Use the latest stable Python 3.x version
+            # Step 2: Set up Python environment
+            - name: Set Up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.13" # Use the latest stable Python 3.x version
 
-      # Step 3: Install dependencies
-      - name: Install Dependencies
-        run: |
-          echo "Installing Python dependencies..."
-          python -m pip install --upgrade pip setuptools wheel  # Ensure latest package tools
-          pip install --upgrade --upgrade-strategy only-if-needed -r requirements.txt
+            # Step 3: Install dependencies
+            - name: Install Dependencies
+              run: |
+                  echo "Installing Python dependencies..."
+                  python -m pip install --upgrade pip setuptools wheel  # Ensure latest package tools
+                  pip install --upgrade --upgrade-strategy only-if-needed -r requirements.txt
+                  pip install -e .
 
-      # Step 4: Execute Jupyter notebooks via a script
-      - name: Run Jupyter Notebooks
-        run: |
-          echo "Running all Jupyter notebooks..."
-          bash ./SCRIPTS/all_runner.sh
+            # Step 4: Execute Jupyter notebooks via a script
+            - name: Run Jupyter Notebooks
+              run: |
+                  echo "Running all Jupyter notebooks..."
+                  python -m StockETL
 
-      # Step 5: Commit and push changes if there are any
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "PtPrashantTripathi - AutoBot"
-          git config --global user.email "ptprashanttripathi@outlook.com"
-          # Check for changes
-          if ! git diff --quiet; then
-            echo "Changes detected. Committing..."
-            git add .
-            git commit -m "[PanditBot] Auto-update - $(date +%Y-%m-%d_%H-%M-%S)"
-            git push --quiet
-          else
-            echo "No changes detected. Skipping commit."
-          fi
+            # Step 5: Commit and push changes if there are any
+            - name: Commit and Push Changes
+              run: |
+                  git config --global user.name "PtPrashantTripathi - AutoBot"
+                  git config --global user.email "ptprashanttripathi@outlook.com"
+                  # Check for changes
+                  if ! git diff --quiet; then
+                    echo "Changes detected. Committing..."
+                    git add .
+                    git commit -m "[PanditBot] Auto-update - $(date +%Y-%m-%d_%H-%M-%S)"
+                    git push --quiet
+                  else
+                    echo "No changes detected. Skipping commit."
+                  fi

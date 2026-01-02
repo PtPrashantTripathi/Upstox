@@ -29,11 +29,11 @@ Steps:
 
 <!-- What version, browser, OS and screen size are you using -->
 
--   Theme version:
--   Free or paid version:
--   Browser:
--   OS:
--   Screen size:
+- Theme version:
+- Free or paid version:
+- Browser:
+- OS:
+- Screen size:
 
 ## Screenshots 📷
 

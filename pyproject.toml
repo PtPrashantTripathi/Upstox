@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "StockETL"
-version = "0.5.19"
+version = "0.8.12"
 description = "A complete ETL for stock exchanges with PNL calculation and financial analysis tools."
 license = { file = "LICENSE" }
 
 # Primary author details
 authors = [
-  { name = "ptprashanttripathi", email = "ptprashanttripathi@outlook.com" }
+  { name = "ptprashanttripathi", email = "ptprashanttripathi@outlook.com" },
 ]
 
 # Python version compatibility
@@ -37,21 +37,14 @@ classifiers = [
 
 # Core dependencies for your project
 dependencies = [
-  'pandas>=2.2.2',
-  'python-dotenv>=1.0.1'
-]
-
-# Optional dependencies for development and additional features
-[project.optional-dependencies]
-dev = [
-  "jupyter>=1.1.1",  # For notebook development
-  "black>=23.7.0",  # Code formatter for consistent style
-]
-
-# Additional optional dependencies for testing and security
-testing = [
-  "pytest>=7.4,<8.0",  # For running unit tests
-  "pytest-cov>=4.1,<5.0",  # For measuring test coverage
+  'pandas',
+  'python-dotenv',
+  'pydantic',
+  'numpy',
+  'requests',
+  'openpyxl',
+  'yfinance==0.2.66', # Specific version due to compatibility issues
+  'matplotlib',
 ]
 
 # Include README as the main project documentation
@@ -69,10 +62,11 @@ Changelog = "https://github.com/PtPrashantTripathi/PortfolioTracker/blob/main/.g
 
 # Setuptools package discovery
 [tool.setuptools]
-packages = ["StockETL",
-            "StockETL.portfolio",
-            "StockETL.globalpath",
-            "StockETL.datetimeutils"]
+packages = ["StockETL"]
+
+# Console scripts for command-line tools
+[project.scripts]
+stocketl = "StockETL.__main__:main"
 
 # Use Black for consistent code formatting
 [tool.black]
@@ -85,7 +79,6 @@ line_length = 88
 multi_line_output = 3
 include_trailing_comma = true
 known_third_party = ["pandas", "requests", "dotenv"]
-treat_comments_as_code = ["# %%"]
 
 [tool.codespell]
 skip = 'FRONTEND/adminlte/**/*.*,DATA/**/*.csv'

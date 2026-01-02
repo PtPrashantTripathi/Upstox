@@ -1,0 +1,10 @@
+username,date,company,amount,exchange,segment,scrip_code,instrument_type,strike_price,expiry,trade_num,trade_time,side,quantity,price
+deepshikhapatel,2020-12-24 00:00:00,Mrs. Bectors Food Specialities,20657,NSE,EQ,543253,Equity,0,,1427543,10:06:27,Sell,35,590.2
+deepshikhapatel,2020-12-24 00:00:00,Mrs. Bectors Food Specialities,8853.75,NSE,EQ,543253,Equity,0,,1427542,10:06:27,Sell,15,590.25
+deepshikhapatel,2020-12-23 00:00:00,Mrs. Bectors Food Specialities,14400,NSE,EQ,543253,Equity,0,,,,Buy,50,288
+deepshikhapatel,2020-09-17 00:00:00,Happiest Minds Technologies,17246.25,NSE,EQ,543227,Equity,0,,25962510,10:01:32,Sell,45,383.25
+deepshikhapatel,2020-09-17 00:00:00,Happiest Minds Technologies,5506.5,NSE,EQ,543227,Equity,0,,26103206,10:06:04,Sell,15,367.1
+deepshikhapatel,2020-09-17 00:00:00,Happiest Minds Technologies,11013,NSE,EQ,543227,Equity,0,,26103205,10:06:04,Sell,30,367.1
+deepshikhapatel,2020-09-16 00:00:00,Happiest Minds Technologies,14940,NSE,EQ,543227,Equity,0,,,,Buy,90,166
+deepshikhapatel,2020-07-17 00:00:00,STATE BANK OF INDIA,185.9,NSE,EQ,500112,Equity,0,,76397981,10:48:57,Sell,1,185.9
+deepshikhapatel,2020-07-17 00:00:00,SBI CARDS AND PAYMENT SERVICES,13965,NSE,EQ,543066,Equity,0,,76749720,11:28:59,Sell,19,735

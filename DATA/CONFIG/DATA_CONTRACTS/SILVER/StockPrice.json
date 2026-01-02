@@ -1,0 +1,33 @@
+{
+    "data_schema": [
+        {
+            "col_name": "date",
+            "data_type": "string"
+        },
+        {
+            "col_name": "symbol",
+            "data_type": "string"
+        },
+        {
+            "col_name": "open",
+            "data_type": "float64"
+        },
+        {
+            "col_name": "high",
+            "data_type": "float64"
+        },
+        {
+            "col_name": "low",
+            "data_type": "float64"
+        },
+        {
+            "col_name": "close",
+            "data_type": "float64"
+        },
+        {
+            "col_name": "volume",
+            "data_type": "float64"
+        }
+    ],
+    "order_by": ["symbol", "date"]
+}

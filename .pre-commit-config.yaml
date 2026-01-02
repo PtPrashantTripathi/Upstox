@@ -1,10 +1,6 @@
-ci:
-    autoupdate_schedule: monthly
-    autoupdate_commit_msg: "chore: update pre-commit hooks"
-
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v5.0.0
+      rev: v6.0.0
       hooks:
           - id: requirements-txt-fixer
           - id: check-case-conflict
@@ -18,28 +14,34 @@ repos:
           - id: check-yaml
           - id: check-toml
           - id: debug-statements
-          - id: end-of-file-fixer
           - id: trailing-whitespace
+          - id: end-of-file-fixer
 
     - repo: https://github.com/python-jsonschema/check-jsonschema
-      rev: 0.31.2
+      rev: 0.36.0
       hooks:
           - id: check-github-workflows
 
-    # - repo: https://github.com/codespell-project/codespell
-    #   rev: "v2.3.0"
-    #   hooks:
-    #       - id: codespell
-
     - repo: https://github.com/psf/black
-      rev: 25.1.0
+      rev: 25.12.0
       hooks:
           - id: black
-            language_version: python3
           - id: black-jupyter
 
+    - repo: https://github.com/myint/autoflake
+      rev: v2.3.1
+      hooks:
+          - id: autoflake
+            args:
+                - --in-place
+                - --remove-all-unused-imports
+                - --expand-star-imports
+                - --remove-duplicate-keys
+                - --remove-unused-variables
+                - --ignore-init-module-imports
+
     - repo: https://github.com/pycqa/isort
-      rev: 6.0.0
+      rev: 7.0.0
       hooks:
           - id: isort
             args: ["--order-by-type", "--length-sort", "black"]
@@ -48,22 +50,23 @@ repos:
     - repo: https://github.com/nbQA-dev/nbQA
       rev: 1.9.1
       hooks:
-        - id: nbqa-black
-          additional_dependencies: [jupytext]  # optional, only if you're using Jupytext
-          args: ["--nbqa-shell"]
-        - id: nbqa-pyupgrade
-          args: ["--py37-plus"]
-        - id: nbqa-isort
-          args: ["--float-to-top"]
+          - id: nbqa-black
+            additional_dependencies: [jupytext] # optional, only if you're using Jupytext
+            args: ["--nbqa-shell"]
+          - id: nbqa-pyupgrade
+            args: ["--py312-plus"]
+          - id: nbqa-isort
+            args: ["--float-to-top"]
 
     - repo: https://github.com/asottile/pyupgrade
-      rev: v3.19.1
+      rev: v3.21.2
       hooks:
           - id: pyupgrade
+            args: ["--py312-plus"]
 
-    - repo: local
+    - repo: https://github.com/kynan/nbstripout
+      rev: 0.8.2 # or latest stable tag
       hooks:
-        - id: json-formatter
-          name: JSON Formatter
-          entry: ./SCRIPTS/format_json.py
-          language: python
+          - id: nbstripout
+            name: Strip Jupyter notebook outputs
+            types: [jupyter]

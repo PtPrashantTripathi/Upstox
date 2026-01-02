@@ -1,0 +1,31 @@
+username,date,company,amount,exchange,segment,scrip_code,instrument_type,strike_price,expiry,trade_num,trade_time,side,quantity,price
+deepshikhapatel,2024-08-26 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,500.09,BMF,MF,F179K01WM1,MF,0,,,,Buy,2.08,240.43
+deepshikhapatel,2024-08-26 00:00:00,DSP BlackRock Tax Saver Fund -,499.92,BMF,MF,F740K01OK1,MF,0,,,,Buy,3.25,154.01
+deepshikhapatel,2024-08-05 00:00:00,SYNCOM FORMU (BSE INDONEXT),44.58,NSE,EQ,524470,Equity,0,,612760270,13:18:32,Buy,3,14.86
+deepshikhapatel,2024-08-02 00:00:00,ICICIPRAMC - BHARATIWIN,954.8,NSE,EQ,540787,Equity,0,,203231865,10:12:01,Buy,8,119.35
+deepshikhapatel,2024-07-31 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,999.91,BMF,MF,F179K01WM1,MF,0,,,,Buy,4.18,239.38
+deepshikhapatel,2024-07-31 00:00:00,DSP BlackRock Tax Saver Fund -,500.01,BMF,MF,F740K01OK1,MF,0,,,,Buy,3.25,153.76
+deepshikhapatel,2024-06-28 00:00:00,I T C LTD,2547.6,NSE,EQ,500875,Equity,0,,24818849,09:25:05,Buy,6,424.6
+deepshikhapatel,2024-06-25 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,500.01,BMF,MF,F179K01WM1,MF,0,,,,Buy,2.2,227.49
+deepshikhapatel,2024-06-25 00:00:00,DSP BlackRock Tax Saver Fund -,499.99,BMF,MF,F740K01OK1,MF,0,,,,Buy,3.49,143.35
+deepshikhapatel,2024-05-29 00:00:00,Tata Motors Passenger Vehicles Ltd,3778.4,NSE,EQ,500570,Equity,0,,63517933,11:54:26,Buy,4,944.6
+deepshikhapatel,2024-05-29 00:00:00,ICICIPRAMC - BHARATIWIN,219.9,NSE,EQ,540787,Equity,0,,24397915,11:56:05,Buy,2,109.95
+deepshikhapatel,2024-05-27 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,999.92,BMF,MF,F179K01WM1,MF,0,,,,Buy,4.56,219.42
+deepshikhapatel,2024-05-27 00:00:00,DSP BlackRock Tax Saver Fund -,999.99,BMF,MF,F740K01OK1,MF,0,,,,Buy,7.36,135.94
+deepshikhapatel,2024-04-26 00:00:00,HDFC INDEX FUND - NIFTY PLAN -,499.97,BMF,MF,F179K01WM1,MF,0,,,,Buy,2.34,214.03
+deepshikhapatel,2024-04-26 00:00:00,DSP BlackRock Tax Saver Fund -,499.98,BMF,MF,F740K01OK1,MF,0,,,,Buy,3.87,129.26
+deepshikhapatel,2024-04-15 00:00:00,I T C LTD,5114.4,NSE,EQ,500875,Equity,0,,25533801,11:22:52,Buy,12,426.2
+deepshikhapatel,2024-04-12 00:00:00,I T C LTD,43100,NSE,EQ,500875,Equity,0,,22506833,10:13:19,Buy,100,431
+deepshikhapatel,2024-04-12 00:00:00,I T C LTD,51708,NSE,EQ,500875,Equity,0,,22726427,10:21:49,Buy,120,430.9
+deepshikhapatel,2024-04-09 00:00:00,Indian Railway Finance,295.9,NSE,EQ,543257,Equity,0,,23420851,11:01:32,Buy,2,147.95
+deepshikhapatel,2024-04-08 00:00:00,TATA POWER,4156.5,NSE,EQ,500400,Equity,0,,61603099,09:53:54,Buy,10,415.65
+deepshikhapatel,2024-04-08 00:00:00,Tata Motors Passenger Vehicles Ltd,5045.25,NSE,EQ,500570,Equity,0,,62258278,10:21:02,Buy,5,1009.05
+deepshikhapatel,2024-04-08 00:00:00,Tata Motors Passenger Vehicles Ltd,5037.75,NSE,EQ,500570,Equity,0,,61726350,09:58:30,Buy,5,1007.55
+deepshikhapatel,2024-04-08 00:00:00,SYNCOM FORMU (BSE INDONEXT),1410,NSE,EQ,524470,Equity,0,,61665974,09:56:09,Buy,100,14.1
+deepshikhapatel,2024-04-08 00:00:00,TCS LTD,15946.8,NSE,EQ,532540,Equity,0,,61541338,09:51:47,Buy,4,3986.7
+deepshikhapatel,2024-04-08 00:00:00,ADANI PORTS LTD,6765,NSE,EQ,532921,Equity,0,,1322899,09:54:28,Buy,5,1353
+deepshikhapatel,2024-04-08 00:00:00,ICICIPRAMC - BHARATIWIN,5207,NSE,EQ,540787,Equity,0,,21896092,09:52:30,Buy,50,104.14
+deepshikhapatel,2024-04-08 00:00:00,Indian Railway Finance,3727.5,NSE,EQ,543257,Equity,0,,22046195,09:56:53,Buy,25,149.1
+deepshikhapatel,2024-04-08 00:00:00,Indian Railway Finance,595.6,NSE,EQ,543257,Equity,0,,21984341,09:55:00,Buy,4,148.9
+deepshikhapatel,2024-04-08 00:00:00,Indian Railway Finance,1637.9,NSE,EQ,543257,Equity,0,,21984340,09:55:00,Buy,11,148.9
+deepshikhapatel,2024-04-05 00:00:00,DSP BlackRock Tax Saver Fund -,499.96,BMF,MF,F740K01OK1,MF,0,,,,Buy,3.94,126.86
